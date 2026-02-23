@@ -3,7 +3,7 @@ cask "panel" do
   name "panel"
   desc "A second opinion is good. A panel of experts is better."
   homepage "https://github.com/codebeauty/panel"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "panel" do
     on_intel do
       url "https://github.com/codebeauty/panel/releases/download/v#{version}/panel_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/codebeauty/panel/releases/download"
-      sha256 "e8cb20b99ea1a4fd56d812c0937233a949515376706397aee8957a01e8dcb207"
+      sha256 "db6a23ba83143ab10d505f29fcc1f8f8c974e35ae67f9a8227110eafc1eafa9e"
     end
     on_arm do
       url "https://github.com/codebeauty/panel/releases/download/v#{version}/panel_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/codebeauty/panel/releases/download"
-      sha256 "060eefe16f453d6a89f8227757762635745047fad8ce8f0dc10a6a79e084e1d5"
+      sha256 "c179608d0bf8fc2e7ef41664d36724444eb22cfd82f4fe94fa90a1571e28f7db"
     end
   end
 
